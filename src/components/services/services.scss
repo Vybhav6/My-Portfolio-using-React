@@ -233,4 +233,28 @@ p{
   margin-top: 10px;
 }
 
+.box a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(166, 69, 227);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 
+  &:hover {
+    background-color: #9446c4;
+  }
+
+  @include mobile {
+    background-color: transparent;
+    border: 1px solid rgb(166, 69, 227);
+    color: rgb(166, 69, 227);
+  }
+}
+
+a{
+  margin-top: 20px;
+}
