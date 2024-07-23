@@ -8,6 +8,7 @@ const items = [
     title: "React Portfolio",
     img: "\React portfolio.jpeg",
     desc: "This platform showcases information about myself, my potential, and my current activities. Developed using the React framework, you are currently scrolling through it to explore more about me.",
+    link: "https://vybhavv.netlify.app/"
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const items = [
     title: "Guardian Private ltd Data Analysis",
     img: "\dashboard.jpeg",
     desc: "The Guardian Pvt Ltd Sales Dashboard uses MySQL Workbench 8.0 for managing 150,000+ transactions and Power BI for creating interactive dashboards to track and visualize the company's sales data.",
+    link: "https://github.com/Vybhav6/Project-Guardians-pvt-ltd-sales-analysis"
   },
   // {
   //   id: 4,
