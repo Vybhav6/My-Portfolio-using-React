@@ -10,6 +10,7 @@
     max-width: 1366px;
     height: 100%;
     margin: auto;
+    position: relative; // Added to position children relative to this container
 
     .textContainer {
       width: 50%;
@@ -18,6 +19,8 @@
       flex-direction: column;
       justify-content: center;
       gap: 40px;
+      position: relative; // Added to ensure buttons stay above the image
+      z-index: 2; // Added to ensure textContainer is above imageContainer
 
       @include mobile {
         height: auto;
@@ -75,6 +78,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 1; // Added to ensure image is below textContainer
 
     @include mobile {
       height: auto;
